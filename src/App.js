@@ -13,7 +13,7 @@ function App() {
           <input type='number' name='inv_number' id='inv_number'/>
         </label> <br/>
         <label>Invoice Date :
-        <DatePicker placeholder="Select Invoice Date" format="dd/MM/yyyy" />
+        <DatePicker placeholder="Invoice Date" format="dd/MM/yyyy" />
         </label>
       </form>
     </div>
