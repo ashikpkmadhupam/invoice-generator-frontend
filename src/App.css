@@ -1,38 +1,84 @@
-.App {
+
+.invoice_header {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text_field {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.date_field {
+  width: 19%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius:7px;
+  margin-left: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#inv_number {
+  width: 19%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  
+}
+
+.Table {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.btn {
+  margin-top: 1rem;
+    border: none;
+    background-color: #1d4ed8;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px #ccc;
+    justify-content: center;
+    justify-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-submit {
+  margin-top: 5rem;
+    border: none;
+    background-color: #16983f;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px #ccc;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: block;
+}
+
+.btn-container {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-name {
+  justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(203, 245, 245);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
