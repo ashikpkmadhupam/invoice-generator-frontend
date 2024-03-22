@@ -1,6 +1,5 @@
 {
   "name": "invoice-generator",
-  "homepage": "https://ashikpkmadhupam.github.io/invoice-generator-frontend",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://invoice-generator-test-q5uiiw46la-el.a.run.app",
@@ -16,7 +15,6 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,6 +39,5 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
