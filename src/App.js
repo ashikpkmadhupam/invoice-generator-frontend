@@ -50,7 +50,7 @@ function App() {
         tableContents: [...rows]
       };
 
-      var url = '/invoice/pdf/generate';
+      var url = 'https://invoice-generator-test-q5uiiw46la-el.a.run.app/invoice/pdf/generate';
       var axiosConfig = {
         responseType: 'arraybuffer',
         headers: {
